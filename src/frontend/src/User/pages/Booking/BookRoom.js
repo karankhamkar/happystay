@@ -88,7 +88,7 @@ function UserBookRoom() {
             type="button"
             class="btn btn-primary"
           >
-            Submit
+            Search
           </button>
         </div>
       </div>
