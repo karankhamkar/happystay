@@ -120,7 +120,7 @@ function UserAddBooking() {
 
               <div className="mb-3">
                 <label htmlFor="" className="label-control">
-                  Remark
+                  Remark(number Of persons)
                 </label>
                 <input  onChange={(e) => {
                     setRemark(e.target.value);
@@ -130,7 +130,7 @@ function UserAddBooking() {
 
               <div className="mb-3">
                 <button onClick={bookingConfirmed}className="btn btn-success">
-                  Payment
+                  Book Room
                 </button>
               </div>
             </div>

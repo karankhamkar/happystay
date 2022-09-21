@@ -18,7 +18,7 @@ function SearchByBookingId() {
         const result = response.data;
         if (result["status"] == "success") {
           setBookingList(result["data"]);
-          toast.success("Successfully submitted UserId");
+          toast.success("Searching for user");
         } else {
           toast.error(result["error"]);
         }
@@ -73,7 +73,7 @@ function SearchByBookingId() {
             type="button"
             class="btn btn-primary"
           >
-            Submit
+            Search by BookingId
           </button>
         </div>
       </div>

@@ -18,7 +18,7 @@ function SerchByUserId() {
         const result = response.data;
         if (result["status"] == "success") {
           setUserList(result["data"]);
-          toast.success("Successfully submitted UserId");
+          toast.success("Searching for user");
         } else {
           toast.error(result["error"]);
         }
@@ -70,7 +70,7 @@ function SerchByUserId() {
         <div class="col-sm">
           <label htmlFor="" className="label-control"></label>
           <button onClick={getUserById} type="button" class="btn btn-primary">
-            Submit
+            Search By UserId
           </button>
         </div>
       </div>

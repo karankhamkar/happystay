@@ -27,7 +27,7 @@ function SearchBookingByDate() {
         const result = response.data;
         if (result["status"] == "success") {
           setBookingList(result["data"]);
-          toast.success("Successfully submitted date");
+          toast.success("Searching for users");
         } else {
           toast.error(result["error"]);
         }
@@ -79,7 +79,7 @@ function SearchBookingByDate() {
             type="button"
             class="btn btn-primary"
           >
-            Submit
+            Search
           </button>
         </div>
       </div>

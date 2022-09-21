@@ -35,7 +35,7 @@ function UserBookRoom() {
         const result = response.data;
         if (result["status"] == "success") {
           setRoomsList(result["data"]);
-          toast.success("Successfully submitted date");
+          toast.success("Displaying available rooms");
         } else {
           toast.error(result["error"]);
         }
@@ -88,7 +88,7 @@ function UserBookRoom() {
             type="button"
             class="btn btn-primary"
           >
-            Search
+            Search rooms
           </button>
         </div>
       </div>

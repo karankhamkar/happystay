@@ -47,7 +47,7 @@ const SignUp = () => {
         const result = response.data
         console.log(result)
         if (result['status'] == 'success') {
-          toast.success('Successfully signed up new user')
+          toast.success('Successfully Registered')
 
           // navigate to the signin page
           navigate('/signin')

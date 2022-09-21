@@ -16,7 +16,7 @@ const UserList = (props) => {
     window.location.reload(false);
   };
 
-  // const changeRole = () => {
+  // const changeRole = () => { 
   //  // setRole(`${userList.role}`)
   //   console.log(role)
   //   if (role == "user") {
