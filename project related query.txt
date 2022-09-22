@@ -1,0 +1,13 @@
+we can add in the project following things
+1>payment
+2>google authntication
+3>number of persons when booking a room
+4>cancel feature required
+5>about rooms details we have to add button for descriptioin
+
+
+
+queries related to project
+1.seriazable
+2.how to connect frontend and backend
+3.
