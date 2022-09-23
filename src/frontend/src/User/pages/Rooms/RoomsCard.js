@@ -11,36 +11,39 @@ import image1 from './../../../image/rooms/1.jpg';
 
 const UserRoomsCard = (props) => {
   const { roomsList } = props;
-  
+
   const image = require('./../../../image/rooms/' + roomsList.roomCategory.categoryId + '.jpg');
 
   const navigate = useNavigate();
 
+ 
+
   return (
     <div>
-      <br/>
+      <br />
       <div className="card" style={{ width: "500px" }}>
-      <img src={image} className="card-img-top" alt="..." style={{height: "300px"}} />
-      <div className="card-body">
-        <h5 className="card-title">{roomsList.roomCategory.title}</h5>
-        <p className="card-text">
-          {roomsList.description}
+        <img src={image} className="card-img-top" alt="..." style={{ height: "300px" }} />
+        <div className="card-body">
+          <h5 className="card-title"><b>{roomsList.roomCategory.title}</b></h5>
+          <p className="card-text" >
+            {roomsList.description}
 
-        </p>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"> Price : {roomsList.price}</li>
-          <li class="list-group-item"> Adult Count : {roomsList.adultCount}</li>
-          <li class="list-group-item">Child Count : {roomsList.childCount}</li>
-          <li class="list-group-item">Facilities : 
+          </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b> Price : {roomsList.price}</b></li>
+            <li class="list-group-item"> Adult Count : {roomsList.adultCount}</li>
+            <li class="list-group-item">Child Count : {roomsList.childCount}</li>
+            <li class="list-group-item" >Facilities : 
             {roomsList.facility.map((facility) => {
               return <UserRoomFacility facility={facility} />;
             })}
           </li>
-        </ul>
-        {/* <a href="#" className="btn btn-primary">
+            <button style={{display:"flex"}}>facility</button>
+          </ul>
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
           </a> */}
-        {/* <button  
+          {/* <button  
           // onClick={()=>{
           //   setAddBooking(true)
           // }} 
@@ -52,9 +55,9 @@ const UserRoomsCard = (props) => {
           Book Now
         </button> */}
 
-        {/* <AddBooking id={1} /> */}
+          {/* <AddBooking id={1} /> */}
+        </div>
       </div>
-    </div>
     </div>
   );
 };
@@ -64,9 +67,9 @@ export const UserRoomFacility = (props) => {
 
   return (
     <div>
-        <ul>
-          <li> {facility.title} : {facility.description}</li>
-        </ul>
+      <ul>
+        <li> {facility.title} : {facility.description}</li>
+      </ul>
     </div>
   );
 };
