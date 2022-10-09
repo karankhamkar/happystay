@@ -4,7 +4,7 @@ INSERT INTO id_proof(type) VALUES ('panCard');
 INSERT INTO id_proof(type) VALUES ('drivingLicence');
 
 
-INSERT INTO users(first_name, last_name, email, password, idproof, gender, role, mobile, address, city, state, zipcode) VALUES ('Nikhil','Kotkar', 'nikhil@test.com', 1234, 2, 'male', 'admin', 1234567890, 'Pimpri', 'Pune', 'Maharashtra', 411019);
+INSERT INTO users(first_name, last_name, email, password, idproof, gender, role, mobile, address, city, state, zipcode) VALUES ('sagar','malik', 'sagar@test.com', 1234, 2, 'male', 'admin', 1234567890, 'bangalore', 'bangalore', 'karnataka', 560014);
 INSERT INTO users(first_name, last_name, email, password, idproof, gender, role, mobile, address, city, state, zipcode) VALUES ('Akash','Kendre', 'Akash@test.com', 1234, 2, 'male', 'admin', 1234567890, 'chukar pimpri', 'parbhani', 'Maharashtra', 431514);
 INSERT INTO users(first_name, last_name, email, password, idproof, gender, role, mobile, address, city, state, zipcode) VALUES ('Pravin','Kumbhar', 'pravin@test.com', 1234, 3, 'male', 'admin', 1234543234, 'Bhavanipeth', 'Solapur', 'Maharashtra', 413007);
 INSERT INTO users(first_name, last_name, email, password, idproof, gender, role, mobile, address, city, state, zipcode) VALUES ('Sandeep','Khamkar', 'sandy@test.com', 1234, 4, 'male', 'user', 7038200015, 'Nilanga', 'Latur', 'Maharashtra', 413521);
