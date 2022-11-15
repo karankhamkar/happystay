@@ -96,7 +96,7 @@ CREATE TABLE enquiry
     first_name VARCHAR(100) ,
 	last_name VARCHAR(100) , 
 	mobile_no varchar(10) ,
-	email varchar(50) ,
+	email varchar(100) ,
 	remark VARCHAR(500) 
 );
 
