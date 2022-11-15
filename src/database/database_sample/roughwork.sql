@@ -35,4 +35,6 @@ WHERE user_id = 9;
 UPDATE users
 SET password = "$2a$10$.J1uaWgH4g9o.kViXNq0POfNAuWjDeCjRSAwNlYK0j9qaGwpEmWOa"
 WHERE user_id = 10;
-
+UPDATE users
+SET password = "$2a$10$.J1uaWgH4g9o.kViXNq0POfNAuWjDeCjRSAwNlYK0j9qaGwpEmWOa"
+WHERE user_id = 11;
